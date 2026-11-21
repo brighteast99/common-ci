@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+이 문서는 Codex가 이 저장소에서 작업할 때 따르는 지침입니다.
 
 ## 목적
 
@@ -52,4 +52,5 @@ SemVer를 따르며, 릴리스마다 고정 태그 `vX.Y.Z`와 이동 태그 `vX
 - `.gitattributes`로 줄 끝을 LF로 고정합니다. CRLF로 저장된 셸 스크립트는 러너에서 "bad interpreter" 오류를 일으키므로, Windows에서 스크립트를 만들 때 유의해야 합니다.
 - `.editorconfig`: UTF-8, 들여쓰기 공백 2칸, 파일 끝 개행, 줄 끝 공백 제거. 단, `*.md`는 줄 끝 공백 2칸으로 줄바꿈하는 문법을 쓰기 때문에 줄 끝 공백을 유지합니다.
 - `.claude/settings.json` 같은 공유용 Claude 설정은 git으로 추적하고, 개인 설정인 `.claude/settings.local.json`은 제외합니다.
+- Codex 프로젝트 공용 설정은 `.codex/config.toml`에 두고 Git으로 추적합니다.
 - 문서와 주석은 한국어로 작성합니다.
