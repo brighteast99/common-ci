@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 워크플로와 composite action이 참조하는 액션의 버전(서드파티는 SHA 고정)을 갱신합니다.
+  - package-ecosystem: github-actions
+    directories:
+      - /
+      - /actions/*
+      - /actions/internal/*
+    schedule:
+      interval: weekly
+    groups:
+      github-actions:
+        patterns: ["*"]

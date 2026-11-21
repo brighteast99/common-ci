@@ -1,0 +1,2 @@
+# 줄 끝 LF 고정 (CRLF 셸 스크립트로 인한 러너의 bad interpreter 오류 방지)
+* text=auto eol=lf

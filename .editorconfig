@@ -1,0 +1,13 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+[*.md]
+# 마크다운 줄바꿈 문법(줄 끝 공백 2칸) 유지
+trim_trailing_whitespace = false
