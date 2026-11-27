@@ -13,7 +13,7 @@ analyze: passed
 
 AC 시나리오는 각각 검증 저장소의 Release와 태그를 모두 지운 상태에서 시작합니다. 전제 조건이 필요한 시나리오는 검증 방법에 적힌 Release를 먼저 발행합니다. 초기화는 GitHub 쓰기이므로 사용자의 승인을 받습니다.
 
-- [ ] T-1 (D-1): 진입점과 이벤트 검증 job
+- [x] T-1 (D-1): 진입점과 이벤트 검증 job
   - 대상 파일: `.github/workflows/move-tags.yml`
   - 내용:
     - `workflow_call` 진입점을 만들고, 입력 `app-client-id`와 시크릿 `app-private-key`를 필수가 아닌 항목으로 선언합니다.
